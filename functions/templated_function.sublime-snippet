@@ -1,9 +1,10 @@
 <snippet>
 	<description>Templated Function</description>
 	<content><![CDATA[
-template<typename ${1:T}>
-${2:int} ${3:function_name}(${4:/* args */}) noexcept {
-	$0
+template<class ${1:T}>
+${2:int} ${3:function_name}(${4:/* args */})${5: noexcept}
+{
+	${0:/* code */}
 }
 ]]></content>
 	<tabTrigger>tempfunc</tabTrigger>

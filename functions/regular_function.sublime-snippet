@@ -1,7 +1,8 @@
 <snippet>
 	<description>Regular Function</description>
 	<content><![CDATA[
-${1:int} ${2:function_name}(${3:/* args */}) {
+${1:int} ${2:function_name}(${3:/* args */})${5: noexcept}
+{
 	${0:/* code */}
 }
 ]]></content>

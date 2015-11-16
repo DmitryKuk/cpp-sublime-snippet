@@ -1,11 +1,14 @@
 <snippet>
 	<description>Functor</description>
 	<content><![CDATA[
-struct ${1:name} {
-	${2:bool} operator()(${3:/* args */}) const noexcept {
+class ${1:name}
+{
+public:
+	${2:bool} operator()(${3:/* args */}) const${4: noexcept}
+	{
 		${0:/* code */}
 	}
-};
+};	// class $1
 ]]></content>
 	<tabTrigger>functor</tabTrigger>
 	<scope>source.c++</scope>

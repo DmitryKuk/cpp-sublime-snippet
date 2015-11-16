@@ -3,6 +3,6 @@
 	<content><![CDATA[
 std::declval<${1:T}>()
 ]]></content>
-	<tabTrigger>declv</tabTrigger>
+	<tabTrigger>declval</tabTrigger>
 	<scope>source.c++</scope>
 </snippet>

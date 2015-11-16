@@ -1,7 +1,7 @@
 <snippet>
 	<description>std::begin($1), std::end($1)</description>
 	<content><![CDATA[
-begin(${1:v}), end(${1:v})
+std::begin(${1:v}), std::end($1)
 ]]></content>
 	<tabTrigger>beginend_</tabTrigger>
 	<scope>source.c++</scope>

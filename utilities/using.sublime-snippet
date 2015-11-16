@@ -3,6 +3,6 @@
 	<content><![CDATA[
 using ${1:my_type} = ${2:int};
 ]]></content>
-	<tabTrigger>usings</tabTrigger>
+	<tabTrigger>using</tabTrigger>
 	<scope>source.c++</scope>
 </snippet>

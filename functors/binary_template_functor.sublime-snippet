@@ -1,12 +1,15 @@
 <snippet>
 	<description>Binary Template Functor</description>
 	<content><![CDATA[
-struct ${1:name} {
-	template<typename T, typename U>
-	constexpr auto operator()(T&& t, U&& u) const noexcept -> decltype(${2:/* code */}) {
-		return ${2:/* code */};
+class ${1:name}
+{
+public:
+	template<class ${2:T1}, class ${3:T2}>
+	constexpr auto operator()($2 ${4:&&a}, $3 ${5:&&b}) const noexcept -> decltype(${6:/* code */})
+	{
+		return $6;
 	}
-};
+};	// class $1
 ]]></content>
 	<tabTrigger>bintempfunctor</tabTrigger>
 	<scope>source.c++</scope>

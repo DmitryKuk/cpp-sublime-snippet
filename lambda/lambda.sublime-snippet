@@ -1,0 +1,11 @@
+<snippet>
+	<description>Lambda</description>
+	<content><![CDATA[
+[${1:&}](${2:/* args */})${3: mutable}${4: noexcept}${5: -> ${6:int}}
+{
+	${0:/* code */}
+}
+]]></content>
+	<tabTrigger>lambda</tabTrigger>
+	<scope>source.c++, source.c++11</scope>
+</snippet>

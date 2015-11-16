@@ -3,9 +3,8 @@
 	<content><![CDATA[
 try {
 	${1:/* code */}
-}
-catch(${2:const std::exception& e}) {
-	${0:std::cerr << e.what() << '\n';}
+} catch (const ${2:std::exception} &${3:e}) {
+	${4:std::cerr << $3.what() << std::endl;}
 }
 ]]></content>
 	<tabTrigger>try</tabTrigger>

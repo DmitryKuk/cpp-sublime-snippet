@@ -1,8 +1,8 @@
 <snippet>
 	<description>Range-based For Loop</description>
 	<content><![CDATA[
-for(auto&& ${1:i} : ${2:v}) {
-	$0
+for (${1:const }auto ${2:&element}: ${3:container}) {
+	${0:/* code */}
 }
 ]]></content>
 	<tabTrigger>forrange</tabTrigger>

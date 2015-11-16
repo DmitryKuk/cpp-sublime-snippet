@@ -1,0 +1,10 @@
+<snippet>
+	<description>Catch Block</description>
+	<content><![CDATA[
+catch (const ${1:std::exception} &${2:e}) {
+	${3:std::cerr << $2.what() << std::endl;}
+}
+]]></content>
+	<tabTrigger>catch</tabTrigger>
+	<scope>source.c++, source.objc++, source.c++11</scope>
+</snippet>

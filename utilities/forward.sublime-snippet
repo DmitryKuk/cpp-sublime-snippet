@@ -3,6 +3,6 @@
 	<content><![CDATA[
 std::forward<${1:T}>(${2:t})
 ]]></content>
-	<tabTrigger>forw</tabTrigger>
+	<tabTrigger>forward</tabTrigger>
 	<scope>source.c++</scope>
 </snippet>
