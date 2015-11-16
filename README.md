@@ -1,6 +1,7 @@
 # C++ Snippets for Sublime Text
 
 ---
+
 **NOTE:**
 - This repository is fork of this: [https://github.com/Rapptz/cpp-sublime-snippet](https://github.com/Rapptz/cpp-sublime-snippet) by [Rapptz](https://github.com/Rapptz).
 - *Why?* I want to use snippets according to my code style and my needs.
@@ -8,6 +9,7 @@
     + *In snippets:* Code style changed, some unuseful (in my opininion) snippets removed, some improved. Use `diff`, Luke. ;)
     + *In docs and installation:* Sublime's package manager can't install this. You should install it manually. This README.md file corrected. File reference.md is not corrected yet (do it later)!
 - *What's next?* Maybe, I will fill up this collection. I don't know.
+
 ---
 
 This package adds some useful snippets for Sublime Text for C++11. It matches the following style:
